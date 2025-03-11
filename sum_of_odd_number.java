@@ -6,7 +6,7 @@ public class sum_of_odd_number {
         int n = sc.nextInt();
         int sum = 0;
         if( n % 2 != 0){
-            for(int i = 1; i < n; i+=2){
+            for(int i = 1; i <= n; i+=2){
                 sum += Math.pow(i, 2);
             }
             System.out.println("Sum of the square of odd numbers untill " +n+ " is:" +sum);
