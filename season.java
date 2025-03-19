@@ -1,8 +1,8 @@
 import java.util.*;
-public class Bangla_season{
+public class season{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Look at the list below and input the number of the Bengla month name whose season you want to know about.\n 1. Baisakh.\n 2.Jyaistha.\n 3. Asardh.\n 4.Sraban.\n 5.Bhadra.\n 6. Ashhine.\n 7. Kartik.\n 8.Agrahayan.\n 9.Paush.\n 10.Magh. 11.Falgun.\n 12.Chatrya. ");
+        System.out.print("Look at the list below and input the number of the Bengla month name whose season you want to know about.\n 1. Baisakh.\n 2.Jyaistha.\n 3. Asardh.\n 4.Sraban.\n 5.Bhadra.\n 6. Ashhine.\n 7. Kartik.\n 8.Agrahayan.\n 9.Paush.\n 10.Magh. 11.Falgun.\n 12.Chatrya. ");
         int i = sc.nextInt();
         switch (i) {
             case 1:
